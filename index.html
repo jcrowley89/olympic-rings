@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Rings</title>
+    <style>
+        body {
+            background-color: #333;
+            margin: 1rem;
+        }
+
+        .container:nth-child(2) {
+            margin-top: -100px;
+        }
+
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ring {
+            border: 14px solid;
+            width: 16vw;
+            height: 16vw;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+
+        .ring:first-child {
+            margin: 0;
+        }
+
+        .flag {
+            width: 30vw;
+            height: 18vw;
+            display: flex;
+            margin-top: 1rem;
+        }
+
+        .flag-section {
+            margin: 0;
+            width: 32%;
+            height: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ring" style="border-color: #0286c3"></div>
+        <div class="ring" style="border-color: #fbb22e"></div>
+        <div class="ring" style="border-color: #000000"></div>
+    </div>
+    <div class="container">
+        <div class="ring" style="border-color: #168c39"></div>
+        <div class="ring" style="border-color: #ee2f4d"></div>
+    </div>
+    <div class="container">
+        <div class="flag">
+            <div class="flag-section" style="background-color: #169b62"></div>
+            <div class="flag-section" style="background-color: #ffffff"></div>
+            <div class="flag-section" style="background-color: #ff883e"></div>
+        </div>
+    </div>
+</body>
+
+</html>
